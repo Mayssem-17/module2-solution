@@ -1,0 +1,25 @@
+/* Define colors */
+:root {
+    --primary-color: #000000; /* blue */
+    --secondary-color: #6c757d; /* grey */
+    --success-color: #28a745; /* green */
+  }
+  
+  /* Apply colors to elements */
+  body {
+    background-color: var(--secondary-color);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  section {
+    background-color: var(--success-color);
+  }
+  
+  .section-title {
+    background-color: var(--primary-color);
+    color: rgb(0, 0, 0);
+  }
+  
